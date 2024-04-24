@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet');
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1, 
+h2 {
+    font-family: Georgia, serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1080 px;
+    background-color: #f83385;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15%;
+    background-color: #a6e610;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 80px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: system-ui;
+    font-size: 1.5rem;
+    color: #848484;
+    font-weight: 800;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+.myImg {
+    margin-top: 50px;
+    padding-left: 20px;
+    flex-basis: 450px;
+}
+
+.knowledge {
+    display: flex;   
+    justify-content: center;
+    color: rgb(98, 255, 0);
+    font-size: 1.5em;
+}
+
+.article {
+    margin-top: 1em;   
+}
+
+
+p {
+    font-family: cursive;
+    font-size: 1.8rem;
+    color: #c7dac5;
+    padding-left: 10px;
+}
+
+.text {
+    font-size: 1.25rem;
+    color: #585858;
+}
+
+h2 {
+    text-align: center;
+    color: #424242;
+}
+
+h1 {
+    color: #aa00ff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: #68fa58;
+    flex: 0 0 auto;
+}
